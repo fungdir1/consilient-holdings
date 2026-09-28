@@ -1,0 +1,10 @@
+Built-in imagegen localized edit. Local proposal only; not published.
+
+Reference 1: prior generated low-angle marble visualization, derived from photo by TonyTheTiger, recropped by Beyond My Ken, CC BY-SA 3.0.
+https://commons.wikimedia.org/wiki/File:20120929_Chicago_Board_of_Trade_Building_top_recrop.jpg
+Reference 2: Ceres model photograph by Compro, CC BY-SA 3.0.
+https://commons.wikimedia.org/wiki/File:Ceres_Chicago_Board_of_Trade_scale_model.jpg
+License for adaptation: https://creativecommons.org/licenses/by-sa/3.0/
+Changes: generated Carrara material, low-angle view and isolated lighting, corrected grain sample bag and sheaf of wheat based on the model.
+Symbolism source: Art Institute of Chicago, American Art educator resource, Ceres entry: https://archive.artic.edu/homer_exhb/assets/Rsrc_001087.pdf
+
