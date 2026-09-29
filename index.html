@@ -530,7 +530,7 @@ Symbolism source: Art Institute of Chicago, American Art educator resource, Cere
  const images=controls.map(el=>el.querySelector('img'));
  let current=0;
  variants.forEach(src=>{const image=new Image();image.src=src;});
- function update(){images.forEach(img=>{img.src=variants[current];img.dataset.wordmark=names[current];});controls.forEach(el=>el.setAttribute('aria-label','Change logo option. Current: '+names[current]));}
+ function update(){images.forEach(img=>{img.src=variants[current];img.dataset.wordmark=names[current];img.style.transformOrigin="left center";img.style.transform=current===0?"":"scale("+[1,1.48,1.32][current]+")";img.style.transition="none";});controls.forEach(el=>el.setAttribute('aria-label','Change logo option. Current: '+names[current]));}
  controls.forEach(el=>{el.setAttribute('role','button');el.addEventListener('click',event=>{event.preventDefault();current=(current+1)%variants.length;update();});el.addEventListener('keydown',event=>{if(event.key===' '){event.preventDefault();el.click();}});});
  update();
 })();
